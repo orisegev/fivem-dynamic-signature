@@ -26,7 +26,7 @@ A dynamic signature generator for FiveM, allowing server owners and players to c
 
 1. Clone the repository to your server:
     ```bash
-    git clone https://github.com/yourusername/fivem-dynamic-signature.git
+    git clone https://github.com/orisegev/fivem-dynamic-signature.git
     ```
 
 2. Set up your MySQL database and configure the connection in the `config.php` file.
@@ -35,7 +35,7 @@ A dynamic signature generator for FiveM, allowing server owners and players to c
 
 4. Embed the generated signature on your website or forum by copying the image URL or directly embedding the image using HTML:
     ```html
-    <img src="path_to_signature.php?user_id=player_id" alt="Player Signature">
+    <img src="signature.php?user_id=player_id" alt="Player Signature">
     ```
 
 ---
@@ -44,4 +44,4 @@ A dynamic signature generator for FiveM, allowing server owners and players to c
 
 To generate a dynamic signature for a player, simply pass the player's unique `user_id` in the query string of the signature generator. For example:
 ```html
-<img src="path_to_signature.php?user_id=player_id" alt="Player Signature">
+<img src="signature.php?user_id=player_id" alt="Player Signature">
