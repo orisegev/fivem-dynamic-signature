@@ -1,9 +1,6 @@
 <?php
-// MySQL Connection Variables
-$servername = "localhost"; // Your MySQL host
-$username = "username"; // Your MySQL Username
-$password = "password"; // Your MySQL Password
-$database = "db"; // Your MySQL Database Name
+// Include the database configuration
+include('config.php');
 
 // Get player ID from URL
 $user_id = isset($_GET['user_id']) ? $_GET['user_id'] : null;
